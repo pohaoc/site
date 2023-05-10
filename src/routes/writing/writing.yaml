@@ -1,0 +1,16 @@
+papers:
+  - title: "FLASH: FPGA-Accelerated Smart Switches with GCN Case Study"
+    conf: "ICS 2023"
+    summary: Pouya Haghi, William Krska, Cheng Tan, Tong Geng, Po Hao Chen, Connor Greenwood, Anqi Guo, Thomas Hines, Chunshu Wu, Ang Li, Anthony Skjellum, Martin Herbordt
+    link: https://nschiele.github.io/ICS2023/program.html
+
+  - title: "The Viability of Using Online Prediction to Perform Extra Work while Executing BSP Applications"
+    conf: "HPEC 2022"
+    summary: Po Hao Chen, Pouya Haghi, Jae Yoon Chung, Tong Geng, Richard West, Anthony Skjellum, Martin C. Herbordt
+    link: https://ieeexplore.ieee.org/document/9926405 
+
+posters:
+  - title: "Big Memory Servers and Modern Approaches to Disk-Based Computation"
+    conf: "HPEC 2021"
+    summary: Po Hao Chen, Kurt Keville
+    link: https://math.mit.edu/crib/2021/jun4.html
