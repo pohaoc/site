@@ -10,7 +10,12 @@ papers:
     link: https://ieeexplore.ieee.org/document/9926405 
 
 posters:
+  - title: "Scaling GNN training to billion-edge graphs on a single machine"
+    conf: "NEDBD 2023"
+    summary: Emmanouil Kritharakis, Po Hao Chen, Yuchen Lu, Vasiliki Kalavri
+    link: https://northeastern-datalab.github.io/nedbday/2023/#posters
+
   - title: "Big Memory Servers and Modern Approaches to Disk-Based Computation"
     conf: "HPEC 2021"
     summary: Po Hao Chen, Kurt Keville
-    link: https://math.mit.edu/crib/2021/jun4.html
+    link: https://arxiv.org/pdf/2207.11407.pdf

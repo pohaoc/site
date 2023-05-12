@@ -12,7 +12,7 @@
       desc: "FLASH: FPGA-accelerated Smart Switches with GCN Case Study",
     },
     {
-      name: "HPEC 2023",
+      name: "HPEC 2022",
       href: "https://ieeexplore.ieee.org/document/9926405",
       desc: "The Viability of Using Online Prediction to Perform Extra Work while Executing BSP Applications",
     },
@@ -20,7 +20,7 @@
 
   const services = [
     {
-      name: "HPEC 2023",
+      name: "HPEC 2022",
       desc: "Session Chair",
     },
     {
@@ -35,7 +35,7 @@
     },
     {
       name: "BU GRS",
-      desc: "Naturual Science Graduate Curriculum Commitee",
+      desc: "Natural Science Graduate Curriculum Commitee",
       aside: "2022-2023"
     },
   ];

@@ -17,6 +17,8 @@
   }
 </script>
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 <header
   class="layout-md flex justify-between items-start"
   data-sveltekit-noscroll
@@ -45,7 +47,7 @@
       </a>
     {/each}
   </nav>
-  email: pch [at] brown [edu]
+  <i class="fa fa-envelope"></i> : pch [at] brown [dot] edu
   </div>
 
 </header>
