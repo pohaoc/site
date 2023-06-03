@@ -10,3 +10,53 @@ teaching:
     summary: ""
     link: https://www.bu.edu/academics/cas/courses/cas-cs-551/
     period: "F2023"
+
+coursework:
+  - title: "Advanced Optimization Theory and Methods"
+    conf: ""
+    summary: "nonlinear, constrained, distributed optimization, duality, convexity"
+    link: https://www.bu.edu/academics/eng/courses/eng-ec-724/
+    period: ""
+
+  - title: "Advanced Mathematical Methods for Theoretical CS"
+    conf: ""
+    summary: "boolean fourier analysis, pseudorandomness, spectral graph theory, high-dimensional expander, coding theory, LP/SDP"
+    link: https://cs-people.bu.edu/mbun/courses/599_S22/
+    period: ""
+
+  - title: "Statistical Learning Theory"
+    conf: ""
+    summary: "PAC learning, VC dimension, classical and contemporary learning theory"
+    link: https://www.bu.edu/academics/eng/courses/eng-ec-719/
+    period: ""
+
+  - title: "Deep Learning"
+    conf: ""
+    summary: "CNN, RNN, RL, vision/speech, and neural-controlled ODE/CDE/SDE"
+    link: 
+    period: ""
+
+  - title: "Advanced Digital Design w/ Verilog and FPGA"
+    conf: ""
+    summary: "EDA, Reconfiguratble Computing (RC), HDL, and theory"
+    link: https://www.bu.edu/academics/eng/courses/eng-ec-551/
+    period: ""
+
+  - title: "High-Performance Programming"
+    conf: ""
+    summary: "hardware-aware programming with contemporay HPC processors and GPUs (CUDA)"
+    link: https://github.com/du00d/ParallelFirstSearch
+    period: ""
+
+  - title: "Graduate Computer Architecture"
+    conf: ""
+    summary: "pipelining, branch prediction, memory/caching, network architecture, gem5"
+    link: 
+    period: ""
+  - title: "User-Centric System"
+    conf: ""
+    summary: "data provenance, interpretable ML, system observability"
+    link: 
+    period: ""
+
+
