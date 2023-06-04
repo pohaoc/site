@@ -1,0 +1,68 @@
+teaching:
+  - title: "Introduction"
+    conf: "Lecture 1"
+    summary: "vim"
+    link: /assets/pdf/lec1.pdf
+    period: "9/12"
+
+  - title: "C++"
+    conf: "Lecture 2"
+    summary: "syntax, idiom, STL"
+    link: /assets/pdf/lec2.pdf
+    period: "9/19"
+
+  - title: "Efficiency"
+    conf: "Lecture 3"
+    summary: "complexity, bitmask trick"
+    link: /assets/pdf/lec3.pdf
+    period: "9/26"
+
+  - title: "Graph Algorithms"
+    conf: "Lecture 4"
+    summary: "DFS, BFS, bipartite matching"
+    link: /assets/pdf/lec4.pdf
+    period: "10/3"
+
+  - title: "Advanced Graph Algorithms"
+    conf: "Lecture 5"
+    summary: "Kosaraju's algorithm, maxflow, MCMF"
+    link: /assets/pdf/lec5.pdf
+    period: "10/11"
+
+  - title: "String Algorithm"
+    conf: "Lecture 6"
+    summary: "Manacher's algorithm, Trie, Aho Corasick"
+    link: 
+    period: "10/17"
+
+
+  - title: "Binary Search++"
+    conf: "Lecture 7"
+    summary: "min-max optimization"
+    link: /assets/pdf/lec7.pdf
+    period: "10/24"
+
+
+  - title: "Distributed Programming"
+    conf: "Lecture 8"
+    summary: "hardware-aware algorithms, OpenMP, MPI"
+    link: /assets/pdf/lec8.pdf
+    period: "11/7"
+
+  - title: "Segment Tree"
+    conf: "Lecture 9"
+    summary: "interval query and update"
+    link: /assets/pdf/lec9.pdf
+    period: "11/14"
+
+  - title: "Convex Optimization"
+    conf: "Lecture 10"
+    summary: "geometry and convex-hull trick"
+    link: /assets/pdf/lec10.pdf
+    period: "11/14"
+
+  - title: "Fast Fourier Transform"
+    conf: "Lecture 11"
+    summary: "FFT algorithm and applications"
+    link: /assets/pdf/lec11.pdf
+    period: "11/28"
