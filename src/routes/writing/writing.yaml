@@ -2,7 +2,7 @@ papers:
   - title: "FLASH: FPGA-Accelerated Smart Switches with GCN Case Study"
     conf: "ICS 2023"
     summary: Pouya Haghi, William Krska, Cheng Tan, Tong Geng, Po Hao Chen, Connor Greenwood, Anqi Guo, Thomas Hines, Chunshu Wu, Ang Li, Anthony Skjellum, Martin Herbordt
-    link: https://nschiele.github.io/ICS2023/program.html
+    link: https://dl.acm.org/doi/10.1145/3577193.3593739
 
   - title: "The Viability of Using Online Prediction to Perform Extra Work while Executing BSP Applications"
     conf: "HPEC 2022"
