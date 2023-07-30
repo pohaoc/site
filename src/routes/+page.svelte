@@ -8,7 +8,7 @@
   const featuredProjects = [
     {
       name: "ICS 2023",
-      href: "https://nschiele.github.io/ICS2023/program.html",
+      href: "https://dl.acm.org/doi/10.1145/3577193.3593739",
       desc: "FLASH: FPGA-accelerated Smart Switches with GCN Case Study",
     },
     {
@@ -59,7 +59,11 @@
     </p>
 
     <p>
-    Recent works involves building MLSys (graph analytics) enabled by smart switches / smart SSD, datacenter scheduling, and streaming systems.</p>
+    Recent works involves building MLSys (graph analytics) enabled by smart SSD / smart switches, datacenter scheduling, and streaming systems.</p>
+
+    <p>
+    I am a Ph.D. student at Brown University, advised by <a class="link" href="https://cs.brown.edu/people/malte/">Malte Schwarzkopf</a>.
+    </p>
   </div>
 
   <div class="leading-snug space-y-4">
@@ -81,23 +85,6 @@
     {/each}
   </div>
 
-  <div class="leading-snug space-y-4">
-    <p class="pb-2">Service:</p>
-
-    {#each services as service}
-      <a class="project-pair" >
-        <div class="text-black font-medium">
-          {service.name}
-        </div>
-        <div>
-          <p>{service.desc}</p>
-          {#if service.aside}
-            <aside>{service.aside}</aside>
-          {/if}
-        </div>
-      </a>
-    {/each}
-  </div>
 
 
   <div class="space-y-5">
@@ -129,6 +116,26 @@
 
     </p>
   </div>
+
+
+  <div class="leading-snug space-y-4">
+    <p class="pb-2">Professional Activies:</p>
+
+    {#each services as service}
+      <a class="project-pair" >
+        <div class="text-black font-medium">
+          {service.name}
+        </div>
+        <div>
+          <p>{service.desc}</p>
+          {#if service.aside}
+            <aside>{service.aside}</aside>
+          {/if}
+        </div>
+      </a>
+    {/each}
+  </div>
+
 </div>
 
 <style lang="postcss">
