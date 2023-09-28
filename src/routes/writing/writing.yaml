@@ -1,21 +1,27 @@
 papers:
   - title: "FLASH: FPGA-Accelerated Smart Switches with GCN Case Study"
-    conf: "ICS 2023"
+    conf: "ICS '23: Proceedings of the 37th International Conference on Supercomputing"
     summary: Pouya Haghi, William Krska, Cheng Tan, Tong Geng, Po Hao Chen, Connor Greenwood, Anqi Guo, Thomas Hines, Chunshu Wu, Ang Li, Anthony Skjellum, Martin Herbordt
     link: https://dl.acm.org/doi/10.1145/3577193.3593739
 
   - title: "The Viability of Using Online Prediction to Perform Extra Work while Executing BSP Applications"
-    conf: "HPEC 2022"
+    conf: "HPEC '22: Proceedings of High Performance Extreme Computing 2022"
     summary: Po Hao Chen, Pouya Haghi, Jae Yoon Chung, Tong Geng, Richard West, Anthony Skjellum, Martin C. Herbordt
     link: https://ieeexplore.ieee.org/document/9926405 
 
 posters:
+
+  - title: "Towards Cycle-Stealing in HPC Applications: A Two-for-One Deal"
+    conf: "SOSP '23"
+    summary: Po Hao Chen, Akshaya Bali, Richard West, Martin Herbordt, Anthony Skjellum
+    link: https://sosp2023.mpi-sws.org/cfpo.html
+
   - title: "Scaling GNN training to billion-edge graphs on a single machine"
-    conf: "NEDBD 2023"
+    conf: "NEDBD '23"
     summary: Emmanouil Kritharakis, Po Hao Chen, Yuchen Lu, Vasiliki Kalavri
     link: https://northeastern-datalab.github.io/nedbday/2023/#posters
 
   - title: "Big Memory Servers and Modern Approaches to Disk-Based Computation"
-    conf: "HPEC 2021"
+    conf: "HPEC '21"
     summary: Po Hao Chen, Kurt Keville
     link: https://arxiv.org/pdf/2207.11407.pdf
