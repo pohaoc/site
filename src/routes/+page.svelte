@@ -7,36 +7,20 @@
 
   const featuredProjects = [
     {
-      name: "ICS 2023",
+      name: "ICS '23",
       href: "https://dl.acm.org/doi/10.1145/3577193.3593739",
       desc: "FLASH: FPGA-accelerated Smart Switches with GCN Case Study",
-    },
-    {
-      name: "HPEC 2022",
-      href: "https://ieeexplore.ieee.org/document/9926405",
-      desc: "The Viability of Using Online Prediction to Perform Extra Work while Executing BSP Applications",
     },
   ];
 
   const services = [
     {
-      name: "HPEC 2022",
+      name: "EuroSys '24",
+      desc: "Artifact Evaluation Commitee",
+    },
+    {
+      name: "HPEC '22 & '23",
       desc: "Session Chair",
-    },
-    {
-      name: "SIAM @ BU",
-      desc: "Co-President",
-      aside: "2022-2023"
-    },
-    {
-      name: "HPC @ BU",
-      desc: "Vice-President",
-      aside: "2020-2023"
-    },
-    {
-      name: "BU GRS",
-      desc: "Natural Science Graduate Curriculum Commitee",
-      aside: "2022-2023"
     },
   ];
 </script>
@@ -59,15 +43,19 @@
     </p>
 
     <p>
-    Recent works involves building MLSys (graph analytics) enabled by smart SSD / smart switches, datacenter scheduling, and streaming systems.</p>
+    Recent work involves resource efficiency in cloud, such as software-defined memory.
+    </p>
+
 
     <p>
     I am a Ph.D. student at Brown University, advised by <a class="link" href="https://cs.brown.edu/people/malte/">Malte Schwarzkopf</a>.
     </p>
+
+
   </div>
 
   <div class="leading-snug space-y-4">
-    <p class="pb-2">Selected Publications:</p>
+    <p class="pb-2">Recent Publications:</p>
 
     {#each featuredProjects as project}
       <a class="project-pair" href={project.href}>
@@ -89,7 +77,11 @@
 
   <div class="space-y-5">
     <p>
-     I am also interested in theory and mathematics. I graduated with BA/MS in computer science at Boston University, where I created and taught a course on algorithmic problem solving during Fall 2021 - Spring 2023 (as an extension of the ACM ICPC team I founded).
+    I also worked on software & hardware co-design for MLSys training/serving, from FPGA-accelerated storage & network switches to stream query processing. 
+    </p>
+
+    <p>
+     I am a hobbyist of theory and mathematics. I created and taught a course on algorithmic problem solving during 2021-2023 at Boston University (as an extension of the ACM ICPC team and SIAM chapter I founded).
     </p>
 
     <p>
@@ -119,7 +111,7 @@
 
 
   <div class="leading-snug space-y-4">
-    <p class="pb-2">Professional Activies:</p>
+    <p class="pb-2">Service:</p>
 
     {#each services as service}
       <a class="project-pair" >
