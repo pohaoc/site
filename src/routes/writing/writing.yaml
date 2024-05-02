@@ -1,4 +1,14 @@
 papers:
+  - title: "In situ neighborhood sampling for large-scale GNN training"
+    conf: "DaMoN '24: Proceedings of the 19th International Workshop on Data Management on New Hardware"
+    summary: Yuhang Song, Po Hao Chen, Yuchen Lu, Naima Abrar, Vasiliki Kalavri 
+    link: https://www.damon-db.org/home
+
+  - title: "Crayfish: Navigating the Labyrinth of Machine Learning Inference in Stream Processing Systems"
+    conf: "EDBT '24: Proceedings of the 27th International Conference on Extending Database Technology"
+    summary: Sonia Horchidan, Po Hao Chen, Emmanouil Kritharakis, Paris Carbone, Vasiliki Kalavri 
+    link: https://openproceedings.org/2024/conf/edbt/paper-156.pdf 
+
   - title: "FLASH: FPGA-Accelerated Smart Switches with GCN Case Study"
     conf: "ICS '23: Proceedings of the 37th International Conference on Supercomputing"
     summary: Pouya Haghi, William Krska, Cheng Tan, Tong Geng, Po Hao Chen, Connor Greenwood, Anqi Guo, Thomas Hines, Chunshu Wu, Ang Li, Anthony Skjellum, Martin Herbordt

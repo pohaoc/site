@@ -7,6 +7,16 @@
 
   const featuredProjects = [
     {
+      name: "DaMoN '24",
+      href: "https://www.damon-db.org",
+      desc: "In Situ Neighborhood Sampling For Large-Scale GNN Training (to appear)",
+    },
+    {
+      name: "EDBT '24",
+      href: "https://openproceedings.org/2024/conf/edbt/paper-156.pdf",
+      desc: "Crayfish: Navigating the Labyrinth of Machine Learning Inference in Stream Processing Systems",
+    },
+    {
       name: "ICS '23",
       href: "https://dl.acm.org/doi/10.1145/3577193.3593739",
       desc: "FLASH: FPGA-accelerated Smart Switches with GCN Case Study",
@@ -77,7 +87,7 @@
 
   <div class="space-y-5">
     <p>
-    I also worked on software & hardware co-design for MLSys training/serving, from FPGA-accelerated storage & network switches to stream query processing. 
+    I also worked on software & hardware co-design for MLSys training/serving, from FPGA-accelerated storage, network-switches, to stream query processing. 
     </p>
 
     <p>
