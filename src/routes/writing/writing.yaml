@@ -1,6 +1,6 @@
 papers:
   - title: "In situ neighborhood sampling for large-scale GNN training"
-    conf: "DaMoN '24: Proceedings of the 19th International Workshop on Data Management on New Hardware"
+    conf: "DaMoN '24: Proceedings of the 20th International Workshop on Data Management on New Hardware"
     summary: Yuhang Song, Po Hao Chen, Yuchen Lu, Naima Abrar, Vasiliki Kalavri 
     link: https://www.damon-db.org/home
 
