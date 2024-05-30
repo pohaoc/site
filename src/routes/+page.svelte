@@ -8,7 +8,7 @@
   const featuredProjects = [
     {
       name: "DaMoN '24",
-      href: "https://www.damon-db.org",
+      href: "https://dl.acm.org/doi/10.1145/3662010.3663443",
       desc: "In Situ Neighborhood Sampling For Large-Scale GNN Training (to appear)",
     },
     {
