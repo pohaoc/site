@@ -2,7 +2,7 @@ papers:
   - title: "In situ neighborhood sampling for large-scale GNN training"
     conf: "DaMoN '24: Proceedings of the 20th International Workshop on Data Management on New Hardware"
     summary: Yuhang Song, Po Hao Chen, Yuchen Lu, Naima Abrar, Vasiliki Kalavri 
-    link: https://www.damon-db.org/home
+    link: https://dl.acm.org/doi/10.1145/3662010.3663443
 
   - title: "Crayfish: Navigating the Labyrinth of Machine Learning Inference in Stream Processing Systems"
     conf: "EDBT '24: Proceedings of the 27th International Conference on Extending Database Technology"
