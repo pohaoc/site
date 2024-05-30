@@ -1,4 +1,4 @@
-# du00d.github.io
+# site
 
 Source code for my [personal website](https://www.howchenn.com/), hosted on
 GitHub Pages.
@@ -10,3 +10,5 @@ This website is powered by [SvelteKit](https://kit.svelte.dev/) and
 $ npm install
 $ npm run dev
 ```
+
+the base is forked from [here](https://github.com/ekzhang/ekzhang.github.io)
