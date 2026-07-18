@@ -45,7 +45,7 @@ coursework:
   - title: "High-Performance Programming"
     conf: ""
     summary: "hardware-aware programming with contemporay HPC processors and GPUs (CUDA)"
-    link: https://github.com/du00d/ParallelFirstSearch
+    link: https://github.com/pohaoc/ParallelFirstSearch
     period: ""
 
   - title: "Graduate Computer Architecture"

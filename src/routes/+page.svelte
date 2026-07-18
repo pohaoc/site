@@ -1,4 +1,5 @@
 <script lang="ts">
+
   import { ArrowUpRight } from "lucide-svelte";
 
   import Seo from "$lib/components/Seo.svelte";
@@ -9,7 +10,7 @@
     {
       name: "DaMoN '24",
       href: "https://dl.acm.org/doi/10.1145/3662010.3663443",
-      desc: "In Situ Neighborhood Sampling For Large-Scale GNN Training (to appear)",
+      desc: "In Situ Neighborhood Sampling For Large-Scale GNN Training",
     },
     {
       name: "EDBT '24",
@@ -33,6 +34,15 @@
       desc: "Session Chair",
     },
   ];
+
+  function appendBestPaper(desc: string): string {
+    const text = "DaMoN '24";
+    if (desc.includes(text)) {
+      return `<span class="bg-yellow-100 text-yellow-800 text-sm font-medium me-2 px-1.0 py-0.5 rounded dark:bg-yellow-900 dark:text-yellow-300">Best Paper Award</span>`;
+    }
+    return ``
+  }
+
 </script>
 
 <Seo
@@ -49,16 +59,20 @@
 <div class="layout-md text-lg space-y-14">
   <div class="space-y-5">
     <p>
-    I am interested in the co-design of application and systems - accelerating performance via specializations in algorithms, software, and hardware.
+    I am broadly interested in the co-design of application and systems - accelerating performance via specializations in algorithms, software, and hardware.
     </p>
 
     <p>
-    Recent work involves resource efficiency in cloud, such as software-defined memory.
+    My recent work focuses on building software-defined memory systems to improve datacenter resource efficiency.
     </p>
 
 
     <p>
-    I am a Ph.D. student at Brown University, advised by <a class="link" href="https://cs.brown.edu/people/malte/">Malte Schwarzkopf</a>.
+    I am a Ph.D. candidate at Brown University, advised by <a class="link" href="https://cs.brown.edu/people/malte/">Malte Schwarzkopf</a>.
+    </p>
+
+    <p>
+    Also, a student researcher at <a class="link" href="https://techsysinfra.google/research/">SystemResearch@Google</a>.
     </p>
 
 
@@ -70,8 +84,9 @@
     {#each featuredProjects as project}
       <a class="project-pair" href={project.href}>
         <div class="text-black font-medium">
-          {project.name}
-          <ArrowUpRight size={18} class="inline text-neutral-400" />
+          <p>{project.name}<ArrowUpRight size={18} class="inline text-neutral-400" />
+</p>
+          {@html appendBestPaper(project.name)}
         </div>
         <div>
           <p>{project.desc}</p>
@@ -157,10 +172,4 @@
     @apply mt-0.5 text-base text-neutral-500;
   }
 
-  /* Correction for vertical navigation links on mobile. */
-  @media (max-width: 420px) {
-    #eric-is {
-      @apply -mt-10;
-    }
-  }
 </style>
